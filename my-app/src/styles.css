@@ -1,3 +1,26 @@
-.Heading{
-    text-align: center;
+@font-face {
+  font-family: Neonderthaw;
+  src: url('../public/Neonderthaw/Neonderthaw-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.heading{
+  background-color: rgba(0, 0, 0, 0.523);
+}
+
+.logo{
+  font-family: Neonderthaw;
+  color: #fff;
+  font-size: 60px;
+}
+
+.section1{
+  background-image: url('../public/theme.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
